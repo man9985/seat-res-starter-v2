@@ -16,45 +16,52 @@
 
   <section class="seat-chart">
     <!-- This section will contain seats with one of two classes. Eventually, the divs will be generated with JavaScript! Keep this in mind when making decisions about the layout. -->
-    <div class="reserved"></div>  <!-- Seat 1 -->
-    <div class="available"></div> <!-- Seat 2 -->
-    <div class="reserved"></div>  <!-- Seat 3 -->
-    <div class="available"></div> <!-- Seat 4 -->
-    <div class="reserved"></div>  <!-- Seat 5 -->
-    <div class="available"></div> <!-- Seat 6 -->
-    <div class="reserved"></div>  <!-- Seat 7 -->
-    <div class="available"></div>  <!-- Seat 8 -->
-    <div class="reserved"></div>  <!-- Seat 9 -->
-    <div class="available"></div>  <!-- Seat 10 -->
-    <div class="reserved"></div>  <!-- Seat 11 -->
-    <div class="reserved"></div>  <!-- Seat 12 -->
-    <div class="available"></div>  <!-- Seat 13 -->
-    <div class="reserved"></div>  <!-- Seat 14 -->
-    <div class="available"></div>  <!-- Seat 15 -->
-    <div class="reserved"></div>  <!-- Seat 16 -->
-    <div class="available"></div>  <!-- Seat 17 -->
-    <div class="reserved"></div>  <!-- Seat 18 -->
-    <div class="available"></div>  <!-- Seat 19 -->
-    <div class="reserved"></div>  <!-- Seat 20 -->
-    <div class="available"></div> <!-- Seat 21 -->
-    <div class="reserved"></div>  <!-- Seat 22 -->
-    <div class="available"></div> <!-- Seat 23 -->
-    <div class="available"></div>  <!-- Seat 24 -->
+    <div class="reserved" name="seat1"></div>  <!-- Seat 1 -->
+    <div class="available" name="seat2"></div> <!-- Seat 2 -->
+    <div class="reserved" name="seat3"></div>  <!-- Seat 3 -->
+    <div class="available" name="seat4"></div> <!-- Seat 4 -->
+    <div class="reserved" name="seat5"></div>  <!-- Seat 5 -->
+    <div class="available" name="seat6"></div> <!-- Seat 6 -->
+    <div class="reserved" name="seat7"></div>  <!-- Seat 7 -->
+    <div class="available" name="seat8"></div>  <!-- Seat 8 -->
+    <div class="reserved" name="seat9"></div>  <!-- Seat 9 -->
+    <div class="available" name="seat10"></div>  <!-- Seat 10 -->
+    <div class="reserved" name="seat11"></div>  <!-- Seat 11 -->
+    <div class="reserved" name="seat12"></div>  <!-- Seat 12 -->
+    <div class="available" name="seat13"></div>  <!-- Seat 13 -->
+    <div class="reserved" name="seat14"></div>  <!-- Seat 14 -->
+    <div class="available" name="seat15"></div>  <!-- Seat 15 -->
+    <div class="reserved" name="seat16"></div>  <!-- Seat 16 -->
+    <div class="available" name="seat17"></div>  <!-- Seat 17 -->
+    <div class="reserved" name="seat18"></div>  <!-- Seat 18 -->
+    <div class="available" name="seat19"></div>  <!-- Seat 19 -->
+    <div class="reserved" name="seat20"></div>  <!-- Seat 20 -->
+    <div class="available" name="seat21"></div> <!-- Seat 21 -->
+    <div class="reserved" name="seat22"></div>  <!-- Seat 22 -->
+    <div class="available" name="seat23"></div> <!-- Seat 23 -->
+    <div class="available" name="seat24"></div>  <!-- Seat 24 -->
   </section>
 
-  <form>
-  User name:<br>
-  <input type="text"   name="username"><br>
-  Email:<br>
-  <input type="email"  name="email"><br>
+
+
+<form>
+  Customer Name:<br>
+  <input type="text"   id="username"><br>
+  Seat Number:<br>
+  <input type="text"  id="seat"><br>
   <button type="button">Submit</button>
+  <script>
+ console.log(username, seat);
+  </script>
 </form>
+
+
 
 <footer>
   <h4>2016 Woodward Theatre project</h4>
   </footer>
 
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="seatRes.js"></script>
 </body>
 </html>

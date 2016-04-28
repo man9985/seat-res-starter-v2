@@ -21,8 +21,9 @@ header {
 }
 
 form {
+  display: none;
   margin: 2% auto;
-  color: yellow;
+  color: blue;
 
 }
 
