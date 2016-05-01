@@ -15,7 +15,6 @@ h1 {
   font-weight: 900;
 }
 
-
 header {
   border-bottom: 2px double black;
 }
@@ -23,7 +22,6 @@ header {
 form {
   display: none;
   margin: 2% auto;
-  color: blue;
 
 }
 
@@ -60,6 +58,7 @@ input {
 
 button {
   background-color: midnightblue;
+  color: yellow;
   margin-top: 20px;
 }
 

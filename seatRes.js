@@ -11,8 +11,16 @@ $(document).ready(function() {
 			button.addEventListener ("click", function() {
    			var getCustomerName = document.getElementById("username").value;
    			var getSeat = document.getElementById("seat").value;
+   			var assignedSeats = {
+   				seatnumber: getSeat,
+   				customername: getCustomerName };
 
-			console.log(getSeat + " is reserved for " + getCustomerName);	
+			console.log(assignedSeats);	
+
+			var newMessage = document.createElement("p");
+    	    newMessage.innerText += getCustomerName + " has reserved " + getSeat; 
+    		console.log(newMessage);
+            newMessage.appendChild(newMessage);
 			}); 
 			
 		});
