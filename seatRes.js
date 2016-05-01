@@ -17,11 +17,10 @@ $(document).ready(function() {
 
 			console.log(assignedSeats);	
 
-			var newMessage2;
 			var newMessage = document.createElement("p");
-    	    newMessage2.innerText += getCustomerName + " has reserved " + getSeat; 
+    	    newMessage.innerText += getCustomerName + " has reserved " + getSeat; 
+    	    document.getElementById('message').appendChild(newMessage);
     		console.log(newMessage);
-            newMessagx``e.appendChild(newMessag2e);
 			}); 
 			
 		});
