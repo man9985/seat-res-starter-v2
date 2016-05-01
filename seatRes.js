@@ -21,7 +21,7 @@ $(document).ready(function() {
 			var newMessage = document.createElement("p");
     	    newMessage2.innerText += getCustomerName + " has reserved " + getSeat; 
     		console.log(newMessage);
-            newMessage.appendChild(newMessag2e);
+            newMessagx``e.appendChild(newMessag2e);
 			}); 
 			
 		});
